@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="head_div">
+        <h1>Sound Controlled Animals</h1>
+        <p>Play different sounds like barking, meowing etc.</p>
+    </div>
+    <br>
+    <center>
+        <button onclick="start_identifying()">Start</button>
+        <br> <br>
+        <label>I CAN HEAR: <span id="hear_value"></span></label>
+        <p>Accuracy: <span id="accuracy"></span></p>
+        <br> <br>
+        <img id ="display" src="Ear.png">
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
